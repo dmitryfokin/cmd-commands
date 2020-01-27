@@ -1,0 +1,29 @@
+table {
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+td,
+th {
+	border-bottom: 1px solid #ccc;
+	padding: 5px 10px;
+}
+
+td:first-child,
+th:first-child {
+	width: 25%;
+	border-right: 1px solid #2e9207;
+	letter-spacing: 1.5px;
+}
+
+tr:nth-child(even) {
+	background-color: #d1f3e2;
+}
+
+caption {
+	padding-bottom: 19px;
+	font-size: 200%;
+	font-weight: 700;
+	letter-spacing: 2px;
+}

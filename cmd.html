@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Комманды консоли</title>
+
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<!-- >>> Команды консоли работы с файловой структурой >>> -->
+	<table>
+		<caption>Команды для работы с файловой структурой</caption>
+		<thead>
+			<tr>
+				<th>Команда</th>
+				<th>Описание</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>mkdir [dirname]</td>
+				<td>Создание директории. "-p dirname/{subdirname1,subdirname2}" - создает несколько папок с вложенностью
+				</td>
+			</tr>
+			<tr>
+				<td>ls [dirname]</td>
+				<td>Вывод поддиректорий и файлов текущей, или указанной директории</td>
+			</tr>
+			<tr>
+				<td>tree [dirname]</td>
+				<td>Вывод файловой структуры в ввиде дерева</td>
+			</tr>
+			<tr>
+				<td>cd [dirname]</td>
+				<td>Переход в указанную директорию. ".." - переход в родительскую директорию. "!$" - переход в только,
+					что созданную директорию</td>
+			</tr>
+			<tr>
+				<td>touch [filename]</td>
+				<td>Создание файла
+					<br>
+					"touch app/{css/main.css,js/main.js,index.html}" - создает несколько файлов
+				</td>
+			</tr>
+			<tr>
+				<td>rm [filename]</td>
+				<td>Удаление файла или директории. С ключем -r удаляет рекурсивно все поддиректории и дочернии файлы
+				</td>
+			</tr>
+			<tr>
+				<td>clear</td>
+				<td>Очистка консоли</td>
+			</tr>
+			<tr>
+				<td>mv</td>
+				<td>Перемещение файлов</td>
+			</tr>
+		</tbody>
+
+	</table>
+	<!-- <<< Команды консоли работы с файловой структурой <<< -->
+
+
+</body>
+
+</html>
